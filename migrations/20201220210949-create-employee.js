@@ -10,10 +10,10 @@ module.exports = {
         type: Sequelize.INTEGER
       },
       firstName: {
-        type: Sequelize.STRING
+        type: Sequelize.INTEGER
       },
       lastName: {
-        type: Sequelize.STRING
+        type: Sequelize.INTEGER
       },
       phoneNumber: {
         type: Sequelize.STRING
@@ -21,13 +21,7 @@ module.exports = {
       employeeAdress: {
         type: Sequelize.STRING
       },
-      departmentId: {
-        type: Sequelize.INTEGER,
-        references: {
-          model: Department,
-          key: 'id'
-        }
-      },
+
       createdAt: {
         allowNull: false,
         type: Sequelize.DATE

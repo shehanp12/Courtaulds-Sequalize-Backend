@@ -11,6 +11,12 @@ module.exports = (sequelize, DataTypes) => {
      */
     static associate(models) {
       // define association here
+
+      Department.belongsTo(models.Employee, {
+        foreignKey: {
+          allowNull: false
+        }
+      });
     }
   };
   Department.init({

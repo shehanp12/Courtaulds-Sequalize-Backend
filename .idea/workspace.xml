@@ -2,10 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9e172f75-521c-443a-9159-6335878d8f56" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/controllers/Employee.controller.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/profile.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/routes/Employee.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/body-parser/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/body-parser/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/migrations/20201220210949-create-employee.js" beforeDir="false" afterPath="$PROJECT_DIR$/migrations/20201220210949-create-employee.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/department.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/department.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/employee.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/employee.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,10 +74,22 @@
       <option name="presentableId" value="Default" />
       <updated>1608485265417</updated>
       <workItem from="1608485266476" duration="10029000" />
+      <workItem from="1608534354099" duration="8364000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

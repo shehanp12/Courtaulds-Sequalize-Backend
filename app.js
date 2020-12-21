@@ -4,6 +4,10 @@ const bodyParser = require('body-parser');
 
 app.use(bodyParser.json());
 
+const employeeRoute = require('./routes/Employee');
+
+app.use("/employee",employeeRoute);
+
 app.get('/',((req, res) =>{
     res.send('Hello World');
 } ))
