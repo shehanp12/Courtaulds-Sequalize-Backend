@@ -1,16 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9e172f75-521c-443a-9159-6335878d8f56" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/controllers/Employee.controller.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/profile.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/routes/Employee.js" afterDir="false" />
+    <list default="true" id="9e172f75-521c-443a-9159-6335878d8f56" name="Default Changelist" comment="sql server foreign keys">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/migrations/20201220210949-create-employee.js" beforeDir="false" afterPath="$PROJECT_DIR$/migrations/20201220210949-create-employee.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/department.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/department.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/employee.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/employee.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/migrations/20201220205202-create-job.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/migrations/20201220210006-create-department.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/migrations/20201220210949-create-employee.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/department.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/employee.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/job.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/profile.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,8 +73,16 @@
       <option name="presentableId" value="Default" />
       <updated>1608485265417</updated>
       <workItem from="1608485266476" duration="10029000" />
-      <workItem from="1608534354099" duration="8364000" />
+      <workItem from="1608534354099" duration="14544000" />
     </task>
+    <task id="LOCAL-00001" summary="sql server foreign keys">
+      <created>1608553212573</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1608553212573</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -91,5 +98,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="sql server foreign keys" />
+    <option name="LAST_COMMIT_MESSAGE" value="sql server foreign keys" />
   </component>
 </project>
