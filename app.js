@@ -9,6 +9,7 @@ const imageRoute = require('./routes/images');
 
 app.use("/employee",employeeRoute);
 app.use("/images", imageRoute);
+app.use('/uploads', express.static('uploads'));
 
 
 
