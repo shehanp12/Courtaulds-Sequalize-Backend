@@ -5,8 +5,11 @@ const bodyParser = require('body-parser');
 app.use(bodyParser.json());
 
 const employeeRoute = require('./routes/Employee');
+const imageRoute = require('./routes/images');
 
 app.use("/employee",employeeRoute);
+app.use("/images", imageRoute);
+
 
 
 app.get('/',((req, res) =>{

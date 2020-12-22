@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9e172f75-521c-443a-9159-6335878d8f56" name="Default Changelist" comment="login function">
-      <change afterPath="$PROJECT_DIR$/middleware/check-auth.js" afterDir="false" />
+    <list default="true" id="9e172f75-521c-443a-9159-6335878d8f56" name="Default Changelist" comment="check authentication">
+      <change afterPath="$PROJECT_DIR$/controllers/image.controller.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/helpers/image-uploader.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/routes/images.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,7 +72,7 @@
       <updated>1608485265417</updated>
       <workItem from="1608485266476" duration="10029000" />
       <workItem from="1608534354099" duration="26594000" />
-      <workItem from="1608614446874" duration="890000" />
+      <workItem from="1608614446874" duration="1898000" />
     </task>
     <task id="LOCAL-00001" summary="sql server foreign keys">
       <created>1608553212573</created>
@@ -119,7 +123,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608589464417</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="check authentication">
+      <created>1608615369473</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1608615369473</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -143,7 +154,8 @@
     <MESSAGE value="employee" />
     <MESSAGE value="singup function" />
     <MESSAGE value="login function" />
-    <option name="LAST_COMMIT_MESSAGE" value="login function" />
+    <MESSAGE value="check authentication" />
+    <option name="LAST_COMMIT_MESSAGE" value="check authentication" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
