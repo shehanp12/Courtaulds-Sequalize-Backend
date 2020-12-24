@@ -13,17 +13,18 @@ module.exports = (sequelize, DataTypes) => {
   },{});
 
   Employee.associate = (models) => {
-    // associations can be defined here
+
     Employee.hasMany(models.Department, {
       as: 'department',
       foreignKey: 'departmentId',
     });
 
-    // Employee.belongsTo(models.BoardingHouse,{
-    //   as:'employee',
-    //   foreignKey:'userId'
-    //
-    // })
+    Employee.belongsTo(models.BoardingHouse,{
+      as:'employee',
+      foreignKey:'id'
+
+    })
+
   };
 
 

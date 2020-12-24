@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9e172f75-521c-443a-9159-6335878d8f56" name="Default Changelist" comment="BoardingHouse route">
-      <change beforePath="$PROJECT_DIR$/config/config.json" beforeDir="false" afterPath="$PROJECT_DIR$/config/config.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/migrations/20201223195538-create-boarding-house.js" beforeDir="false" />
+    <list default="true" id="9e172f75-521c-443a-9159-6335878d8f56" name="Default Changelist" comment="boardingHouse">
+      <change beforePath="$PROJECT_DIR$/controllers/Employee.controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/Employee.controller.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/migrations/20201224071953-create-boarding-house.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/models/boardinghouse.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/models/employee.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/employee.js" afterDir="false" />
     </list>
@@ -153,7 +153,21 @@
       <option name="project" value="LOCAL" />
       <updated>1608757317269</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="issue fixed">
+      <created>1608794363400</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1608794363400</updated>
+    </task>
+    <task id="LOCAL-00013" summary="boardingHouse">
+      <created>1608794426493</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1608794426493</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -181,7 +195,9 @@
     <MESSAGE value="image upload" />
     <MESSAGE value="boardingHouse model" />
     <MESSAGE value="BoardingHouse route" />
-    <option name="LAST_COMMIT_MESSAGE" value="BoardingHouse route" />
+    <MESSAGE value="issue fixed" />
+    <MESSAGE value="boardingHouse" />
+    <option name="LAST_COMMIT_MESSAGE" value="boardingHouse" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
