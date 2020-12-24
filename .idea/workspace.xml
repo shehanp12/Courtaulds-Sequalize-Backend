@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9e172f75-521c-443a-9159-6335878d8f56" name="Default Changelist" comment="image upload">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/middleware/check-auth.js" beforeDir="false" afterPath="$PROJECT_DIR$/middleware/check-auth.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-    </list>
+    <list default="true" id="9e172f75-521c-443a-9159-6335878d8f56" name="Default Changelist" comment="image upload" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -22,6 +16,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="HARD" />
   </component>
   <component name="ProjectId" id="1lvl5r9dK1w9Z5EbVDlPuZIRDnG" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -280,73 +275,61 @@
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/controllers/image.controller.js</url>
           <line>1</line>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="39" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/controllers/image.controller.js</url>
           <line>3</line>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="40" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/controllers/image.controller.js</url>
           <line>4</line>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="41" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/controllers/image.controller.js</url>
           <line>8</line>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="42" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/helpers/image-uploader.js</url>
           <line>13</line>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="43" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/helpers/image-uploader.js</url>
           <line>15</line>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="44" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/helpers/image-uploader.js</url>
           <line>14</line>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="45" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/helpers/image-uploader.js</url>
           <line>21</line>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="46" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/helpers/image-uploader.js</url>
           <line>23</line>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="47" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/helpers/image-uploader.js</url>
           <line>4</line>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="48" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/helpers/image-uploader.js</url>
           <line>7</line>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="49" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/helpers/image-uploader.js</url>
           <line>8</line>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="50" />
         </line-breakpoint>
       </breakpoints>
