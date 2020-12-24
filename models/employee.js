@@ -18,6 +18,12 @@ module.exports = (sequelize, DataTypes) => {
       as: 'department',
       foreignKey: 'departmentId',
     });
+
+    Employee.belongsTo(models.BoardingHouse,{
+      as:'employee',
+      foreignKey:'userId'
+
+    })
   };
 
 
