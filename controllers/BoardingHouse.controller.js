@@ -29,6 +29,8 @@ function boardingRegister(req,res) {
 
 }
 
+
+
 module.exports ={
     boardingRegister:boardingRegister
 }
