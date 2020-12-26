@@ -14,7 +14,7 @@ function boardingRegister(req,res) {
         userId:req.userData.userId
 
     }
-
+    console.log(boardingHouse)
     models.BoardingHouse.create(boardingHouse).then(result => {
         res.status(201).json({
             message: "Post created successfully",

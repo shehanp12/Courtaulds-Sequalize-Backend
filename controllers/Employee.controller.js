@@ -59,8 +59,8 @@ function login(req, res){
             bcryptjs.compare(req.body.password, user.password, function(err, result){
                 if(result){
                     const token = jwt.sign({
-                        password: user.password,
-                        email: user.email
+                        email: user.email,
+                        userId: user.id
                     }, "secret", function(err, token){
                         res.status(200).json({
                             message: "Authentication successful!",
