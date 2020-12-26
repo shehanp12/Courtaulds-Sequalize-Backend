@@ -3,10 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="9e172f75-521c-443a-9159-6335878d8f56" name="Default Changelist" comment="boardingHouse">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controllers/BoardingHouse.controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/BoardingHouse.controller.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controllers/Employee.controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/Employee.controller.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controllers/image.controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/Image.controller.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/images.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/images.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/migrations/20201221131029-create-employee.js" beforeDir="false" afterPath="$PROJECT_DIR$/migrations/20201221131029-create-employee.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/migrations/20201224183548-create-boarding-house.js" beforeDir="false" afterPath="$PROJECT_DIR$/migrations/20201224183548-create-boarding-house.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/boardinghouse.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/boardinghouse.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/employee.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/employee.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,6 +21,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="559a7263388008e9f92cd0c0879cc47df308d140" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RESET_MODE" value="HARD" />
   </component>
@@ -58,6 +63,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="npm.start" />
         <item itemvalue="npm.start" />
         <item itemvalue="npm.start" />
       </list>

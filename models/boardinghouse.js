@@ -17,10 +17,10 @@ module.exports = (sequelize, DataTypes) => {
 
   BoardingHouse.associate = (models) => {
 
-    BoardingHouse.hasMany(models.Employee,{
-      as:'user',
-      foreignKey:'id'
-    })
+    // BoardingHouse.hasMany(models.Employee,{
+    //   as:'user',
+    //   foreignKey:'id'
+    // })
 
   };
 
