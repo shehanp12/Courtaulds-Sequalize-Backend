@@ -1,0 +1,15 @@
+{
+
+  "title": "a",
+  "subtitle": "a",
+  "description": "a",
+  "distance":10.34,
+  "perMonth": 50.78,
+  "keyMoney": 90.0,
+  "imageUrl": "gs://boardinghub.appspot.com/BoardingHouse/1609100975559262.png",
+  "checkGirlsOnly":true,
+  "checkParkingOnly":true,
+  "checkAttachBathroom":true,
+  "checkKitchen":false
+
+}

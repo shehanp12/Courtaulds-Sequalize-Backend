@@ -2,7 +2,7 @@
   "development": {
     "username": "SA",
     "password": "tripleh@123",
-    "database": "Q",
+    "database": "Courtaulds",
     "host": "192.168.8.172",
     "dialect": "mssql"
   },
