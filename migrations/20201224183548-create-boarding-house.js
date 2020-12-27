@@ -29,14 +29,31 @@ module.exports = {
       imageUrl: {
         type: Sequelize.STRING
       },
+      checkGirlsOnly: {
+        type:Sequelize.BOOLEAN
+
+      },
+      checkParkingOnly: {
+        type:Sequelize.BOOLEAN
+
+      },
+      checkAttachBathroom: {
+        type:Sequelize.BOOLEAN
+
+      },
+      checkKitchen: {
+        type:Sequelize.BOOLEAN
+
+      },
       userId: {
         type: Sequelize.INTEGER,
         allowNull: false,
-        references:{
-          model:'boardingProviders',
-          key:'id'
-        }
+        // references:{
+        //   model:'boardingProviders',
+        //   key:'id'
+        // }
       },
+
       createdAt: {
         allowNull: false,
         type: Sequelize.DATE

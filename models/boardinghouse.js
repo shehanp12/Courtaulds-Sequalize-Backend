@@ -10,6 +10,10 @@ module.exports = (sequelize, DataTypes) => {
     perMonth: DataTypes.DOUBLE,
     keyMoney: DataTypes.DOUBLE,
     imageUrl: DataTypes.STRING,
+    checkGirlsOnly:DataTypes.BOOLEAN,
+    checkParkingOnly:DataTypes.BOOLEAN,
+    checkAttachBathroom:DataTypes.BOOLEAN,
+    checkKitchen:DataTypes.BOOLEAN,
     userId: DataTypes.INTEGER
 
 

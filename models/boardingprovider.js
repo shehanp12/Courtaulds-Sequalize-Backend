@@ -6,7 +6,8 @@ module.exports = (sequelize, DataTypes) => {
     email: DataTypes.STRING,
     contactNumber: DataTypes.STRING,
     userName: DataTypes.STRING,
-    address: DataTypes.STRING
+    address: DataTypes.STRING,
+    checkGirlsOnly:DataTypes.BOLLEAN
   },{});
 
   boardingProvider.associate = (models) =>{

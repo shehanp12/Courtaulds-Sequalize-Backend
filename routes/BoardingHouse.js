@@ -5,7 +5,7 @@ const checkAuthMiddleware = require('../middleware/check-auth');
 const router = express.Router();
 
 
-router.post("/",checkAuthMiddleware.checkAuth,boardingController.boardingRegister);
+router.post("/register",checkAuthMiddleware.checkAuth,boardingController.boardingRegister);
 
 
 
