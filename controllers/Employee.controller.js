@@ -8,7 +8,7 @@ function signUp(req, res) {
 
         if(result){
             res.status(409).json({
-                message: "This user is already exists",
+                message: "This Employee is already exists",
             });
         }else{
             bcryptjs.genSalt(10,function (err,salt) {
