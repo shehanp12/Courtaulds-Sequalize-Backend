@@ -23,7 +23,8 @@ function signUp(req,res) {
                         email: req.body.email,
                         contactNumber: req.body.contactNumber,
                         userName:req.body.userName,
-                        address:req.body.address
+                        address:req.body.address,
+                        password:hash
                     }
 
                     models.boardingProvider.create(boardingProvider).then(result => {
