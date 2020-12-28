@@ -22,7 +22,7 @@ function signUp(req,res) {
                         fullName: req.body.fullName,
                         email: req.body.email,
                         contactNumber: req.body.contactNumber,
-                        username:req.body.username,
+                        userName:req.body.userName,
                         address:req.body.address
                     }
 

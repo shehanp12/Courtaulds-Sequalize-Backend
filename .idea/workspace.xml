@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9e172f75-521c-443a-9159-6335878d8f56" name="Default Changelist" comment="boardingRegister.json">
-      <change afterPath="$PROJECT_DIR$/routes/BoardingProvider.js" afterDir="false" />
+    <list default="true" id="9e172f75-521c-443a-9159-6335878d8f56" name="Default Changelist" comment="BoardingProvider.js routing">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/BoardingProvider.controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/BoardingProvider.controller.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,7 +86,7 @@
       <workItem from="1609100113769" duration="6570000" />
       <workItem from="1609130729822" duration="2363000" />
       <workItem from="1609165906914" duration="831000" />
-      <workItem from="1609167182702" duration="7928000" />
+      <workItem from="1609167182702" duration="8601000" />
     </task>
     <task id="LOCAL-00001" summary="sql server foreign keys">
       <created>1608553212573</created>
@@ -222,7 +221,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609186528193</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="BoardingProvider.js routing">
+      <created>1609187482954</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1609187482954</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -255,7 +261,8 @@
     <MESSAGE value="boardingProviders" />
     <MESSAGE value="BoardingHouse model update" />
     <MESSAGE value="boardingRegister.json" />
-    <option name="LAST_COMMIT_MESSAGE" value="boardingRegister.json" />
+    <MESSAGE value="BoardingProvider.js routing" />
+    <option name="LAST_COMMIT_MESSAGE" value="BoardingProvider.js routing" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
