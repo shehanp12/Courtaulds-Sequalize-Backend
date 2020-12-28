@@ -7,7 +7,7 @@ module.exports = (sequelize, DataTypes) => {
     contactNumber: DataTypes.STRING,
     userName: DataTypes.STRING,
     address: DataTypes.STRING,
-    checkGirlsOnly:DataTypes.BOLLEAN
+
   },{});
 
   boardingProvider.associate = (models) =>{
