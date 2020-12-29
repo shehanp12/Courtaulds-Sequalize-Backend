@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9e172f75-521c-443a-9159-6335878d8f56" name="Default Changelist" comment="password">
-      <change beforePath="$PROJECT_DIR$/controllers/BoardingProvider.controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/BoardingProvider.controller.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/BoardingHouse.controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/BoardingHouse.controller.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/BoardingHouse.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/BoardingHouse.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,6 +88,7 @@
       <workItem from="1609130729822" duration="2363000" />
       <workItem from="1609165906914" duration="831000" />
       <workItem from="1609167182702" duration="10334000" />
+      <workItem from="1609219974035" duration="6852000" />
     </task>
     <task id="LOCAL-00001" summary="sql server foreign keys">
       <created>1608553212573</created>
@@ -335,31 +338,6 @@
           <url>file://$PROJECT_DIR$/middleware/check-auth.js</url>
           <line>17</line>
           <option name="timeStamp" value="64" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/controllers/BoardingHouse.controller.js</url>
-          <line>6</line>
-          <option name="timeStamp" value="65" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/controllers/BoardingHouse.controller.js</url>
-          <line>7</line>
-          <option name="timeStamp" value="66" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/controllers/BoardingHouse.controller.js</url>
-          <line>11</line>
-          <option name="timeStamp" value="67" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/controllers/BoardingHouse.controller.js</url>
-          <line>12</line>
-          <option name="timeStamp" value="68" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/controllers/BoardingHouse.controller.js</url>
-          <line>17</line>
-          <option name="timeStamp" value="69" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

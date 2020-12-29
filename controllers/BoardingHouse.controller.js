@@ -11,10 +11,16 @@ function boardingRegister(req,res) {
         perMonth: req.body.perMonth,
         keyMoney: req.body.keyMoney,
         imageUrl: req.body.imageUrl,
-        userId:req.userData.userId
+        checkGirlsOnly:req.body.checkGirlsOnly,
+        checkParkingOnly:req.body.checkParkingOnly,
+        checkAttachBathroom:req.body.checkAttachBathroom,
+        checkKitchen:req.body.checkKitchen,
+        userId:req.userData.userId,
 
     }
+
     console.log(boardingHouse)
+
     models.BoardingHouse.create(boardingHouse).then(result => {
         res.status(201).json({
             message: "Post created successfully",
@@ -29,8 +35,25 @@ function boardingRegister(req,res) {
 
 }
 
+function boardingShow(req, res){
+    models.BoardingHouse.findAll().then(result => {
+        res.status(200).json(result);
+    }).catch(error => {
+        res.status(500).json({
+            message: error
+        });
+    });
+}
+
+
+
+
+
+
+
 
 
 module.exports ={
-    boardingRegister:boardingRegister
+    boardingRegister:boardingRegister,
+    boardingShow:boardingShow
 }
