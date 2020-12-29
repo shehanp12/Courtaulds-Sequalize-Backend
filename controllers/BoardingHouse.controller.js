@@ -45,6 +45,24 @@ function boardingShow(req, res){
     });
 }
 
+function show(req, res){
+    const id = req.params.id;
+
+    models.BoardingHouse.findByPk(id).then(result => {
+        if(result){
+            res.status(200).json(result);
+        }else{
+            res.status(404).json({
+                message: "Post not found!"
+            })
+        }
+    }).catch(error => {
+        res.status(500).json({
+            message: error
+        })
+    });
+}
+
 
 
 
@@ -55,5 +73,6 @@ function boardingShow(req, res){
 
 module.exports ={
     boardingRegister:boardingRegister,
-    boardingShow:boardingShow
+    boardingShow:boardingShow,
+    show:show
 }
