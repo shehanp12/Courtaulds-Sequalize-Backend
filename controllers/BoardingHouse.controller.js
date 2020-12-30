@@ -15,7 +15,7 @@ function boardingRegister(req,res) {
         checkParkingOnly:req.body.checkParkingOnly,
         checkAttachBathroom:req.body.checkAttachBathroom,
         checkKitchen:req.body.checkKitchen,
-        userId:req.userData.userId,
+        userId:req.body.userId,
 
     }
 
