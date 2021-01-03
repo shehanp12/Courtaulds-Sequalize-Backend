@@ -29,11 +29,13 @@ function signUp(req,res) {
 
                     models.boardingProvider.create(boardingProvider).then(result => {
                         res.status(201).json({
+                           success:true,
                             message:"BoardingProvider created successfully"
                         })
                     }).catch(error =>{
                         res.status(500).json({
-                            message:error
+                            success:false,
+                            message:"Failed to Save"
                         })
                     })
                 })
@@ -50,6 +52,7 @@ function login(req,res) {
     models.boardingProvider.findOne({where:{email:req.body.email}}).then(user => {
         if(user === null){
             res.status(401).json({
+                success:false,
                 message:"Invalid credentials!"
             })
         }else{
@@ -60,6 +63,7 @@ function login(req,res) {
                         userId:user.id
                     },"secret",function (err,token) {
                         res.status(200).json({
+                            success:true,
                             message:"Authentication successful!",
                             token:token
                         })
@@ -67,6 +71,7 @@ function login(req,res) {
                     })
                 }else{
                     res.status(401).json({
+                        success:false,
                         message:"Invalid credentials!"
                     })
                 }
@@ -79,7 +84,8 @@ function login(req,res) {
         }
     }).catch(error =>{
         res.status(500).json({
-            message:error
+            success:false,
+            message:"Something Error occurred"
         })
     })
 
