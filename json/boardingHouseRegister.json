@@ -10,6 +10,6 @@
   "checkGirlsOnly":true,
   "checkParkingOnly":true,
   "checkAttachBathroom":true,
-  "checkKitchen":false
-
+  "checkKitchen":false,
+  "userId": 4
 }

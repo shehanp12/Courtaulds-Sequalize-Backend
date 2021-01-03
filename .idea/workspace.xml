@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9e172f75-521c-443a-9159-6335878d8f56" name="Default Changelist" comment="BoardingHouse.controller get">
+    <list default="true" id="9e172f75-521c-443a-9159-6335878d8f56" name="Default Changelist" comment="issues remaking">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controllers/BoardingHouse.controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/BoardingHouse.controller.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/config.json" beforeDir="false" afterPath="$PROJECT_DIR$/config/config.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json/boardingHouseRegister.json" beforeDir="false" afterPath="$PROJECT_DIR$/json/boardingHouseRegister.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/BoardingHouse.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/BoardingHouse.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -90,7 +91,12 @@
       <workItem from="1609167182702" duration="10334000" />
       <workItem from="1609219974035" duration="16425000" />
       <workItem from="1609300189812" duration="4403000" />
-      <workItem from="1609346073566" duration="927000" />
+      <workItem from="1609346073566" duration="5652000" />
+      <workItem from="1609421019109" duration="3118000" />
+      <workItem from="1609514164628" duration="4291000" />
+      <workItem from="1609577803521" duration="2997000" />
+      <workItem from="1609616171542" duration="1546000" />
+      <workItem from="1609627557126" duration="602000" />
     </task>
     <task id="LOCAL-00001" summary="sql server foreign keys">
       <created>1608553212573</created>
@@ -260,7 +266,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609243166655</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="issues remaking">
+      <created>1609347027443</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1609347027444</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -296,7 +309,8 @@
     <MESSAGE value="BoardingProvider.js routing" />
     <MESSAGE value="password" />
     <MESSAGE value="BoardingHouse.controller get" />
-    <option name="LAST_COMMIT_MESSAGE" value="BoardingHouse.controller get" />
+    <MESSAGE value="issues remaking" />
+    <option name="LAST_COMMIT_MESSAGE" value="issues remaking" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
