@@ -4,6 +4,14 @@ const jwt = require('jsonwebtoken');
 
 //boardingProvider signup
 function signUp(req,res) {
+    if((!req.body.fullName)
+        || (!req.body.email) ||
+        (!req.body.contactNumber) || (!req.body.password) ||
+        (!req.body.address) || (!req.body.userName)){
+
+        res.json({success: false, msg: 'Enter all fields'})
+
+    }
 
     models.boardingProvider.findOne({where:{email:req.body.email}}).then(result =>{
 
@@ -35,7 +43,7 @@ function signUp(req,res) {
                     }).catch(error =>{
                         res.status(500).json({
                             success:false,
-                            message:"Failed to Save"
+                            message:error
                         })
                     })
                 })
