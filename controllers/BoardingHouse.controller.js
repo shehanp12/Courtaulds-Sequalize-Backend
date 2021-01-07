@@ -15,7 +15,8 @@ function boardingRegister(req,res) {
         checkParkingOnly:req.body.checkParkingOnly,
         checkAttachBathroom:req.body.checkAttachBathroom,
         checkKitchen:req.body.checkKitchen,
-        userId:req.body.userId,
+        userId:req.userData.userId
+
 
     }
 
@@ -46,9 +47,9 @@ function boardingShow(req, res){
 }
 
 function show(req, res){
-    const id = req.params.id;
+    const userId = req.params.userId;
 
-    models.BoardingHouse.findByPk(id).then(result => {
+    models.BoardingHouse.findByPk(userId).then(result => {
         if(result){
             res.status(200).json(result);
         }else{
@@ -63,6 +64,11 @@ function show(req, res){
     });
 }
 
+function myAddShow(req,res) {
+
+
+
+}
 
 
 

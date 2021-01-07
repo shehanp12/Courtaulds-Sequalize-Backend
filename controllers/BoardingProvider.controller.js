@@ -3,48 +3,47 @@ const bcryptjs = require('bcryptjs');
 const jwt = require('jsonwebtoken');
 
 //boardingProvider signup
-function signUp(req,res) {
-    if((!req.body.fullName)
+function signUp(req, res) {
+    if ((!req.body.fullName)
         || (!req.body.email) ||
         (!req.body.contactNumber) || (!req.body.password) ||
-        (!req.body.address) || (!req.body.userName)){
+        (!req.body.address) || (!req.body.userName)) {
 
         res.json({success: false, msg: 'Enter all fields'})
 
     }
 
-    models.boardingProvider.findOne({where:{email:req.body.email}}).then(result =>{
+    models.boardingProvider.findOne({where: {email: req.body.email}}).then(result => {
 
-        if(result){
+        if (result) {
             res.status(409).json({
-                message:"This BoardingProvider is already exists "
-            })
-        }
-        else{
-            bcryptjs.genSalt(10,function (err,salt) {
+                                     message: "This BoardingProvider is already exists "
+                                 })
+        } else {
+            bcryptjs.genSalt(10, function (err, salt) {
 
-                bcryptjs.hash(req.body.password,salt,function (err,hash) {
+                bcryptjs.hash(req.body.password, salt, function (err, hash) {
 
                     const boardingProvider = {
 
                         fullName: req.body.fullName,
                         email: req.body.email,
                         contactNumber: req.body.contactNumber,
-                        userName:req.body.userName,
-                        address:req.body.address,
-                        password:hash
+                        userName: req.body.userName,
+                        address: req.body.address,
+                        password: hash
                     }
 
                     models.boardingProvider.create(boardingProvider).then(result => {
                         res.status(201).json({
-                           success:true,
-                            message:"BoardingProvider created successfully"
-                        })
-                    }).catch(error =>{
+                                                 success: true,
+                                                 message: "BoardingProvider created successfully"
+                                             })
+                    }).catch(error => {
                         res.status(500).json({
-                            success:false,
-                            message:error
-                        })
+                                                 success: false,
+                                                 message: error
+                                             })
                     })
                 })
 
@@ -56,51 +55,50 @@ function signUp(req,res) {
 }
 
 //login
-function login(req,res) {
-    models.boardingProvider.findOne({where:{email:req.body.email}}).then(user => {
-        if(user === null){
+function login(req, res) {
+    models.boardingProvider.findOne({where: {email: req.body.email}}).then(user => {
+        if (user === null) {
             res.status(401).json({
-                success:false,
-                message:"Invalid credentials!"
-            })
-        }else{
-            bcryptjs.compare(req.body.password,user.password,function (err,result){
-                if(result){
+                                     success: false,
+                                     message: "Invalid credentials!"
+                                 })
+        } else {
+            bcryptjs.compare(req.body.password, user.password, function (err, result) {
+                if (result) {
                     const token = jwt.sign({
-                        email:user.email,
-                        userId:user.id
-                    },"secret",function (err,token) {
+                                               email: user.email,
+                                               userId: user.id
+                                           }, "secret", function (err, token) {
                         res.status(200).json({
-                            success:true,
-                            message:"Authentication successful!",
-                            token:token
-                        })
+                                                 success: true,
+                                                 message: "Authentication successful!",
+                                                 token: token
+                                             })
 
                     })
-                }else{
+                } else {
                     res.status(401).json({
-                        success:false,
-                        message:"Invalid credentials!"
-                    })
+                                             success: false,
+                                             message: "Invalid credentials!"
+                                         })
                 }
-
 
 
             })
 
 
         }
-    }).catch(error =>{
+    }).catch(error => {
         res.status(500).json({
-            success:false,
-            message:"Something Error occurred"
-        })
+                                 success: false,
+                                 message: "Something Error occurred"
+                             })
     })
 
 }
 
 module.exports = {
-    signUp:signUp,
-    login:login
+    signUp: signUp,
+    login: login
 
 }
