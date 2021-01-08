@@ -1,16 +1,16 @@
 const express = require("express");
-const boardingController = require('../controllers/BoardingHouse.controller')
+const boardingHouseController = require('../controllers/BoardingHouse.controller')
 const checkAuthMiddleware = require('../middleware/check-auth');
 
 const router = express.Router();
 
 
-router.post("/register",checkAuthMiddleware.checkAuth,boardingController.boardingRegister);
-router.get("/",boardingController.boardingShow);
-router.get("/:userId",boardingController.show);
+router.post("/register",checkAuthMiddleware.checkAuth,boardingHouseController.boardingRegister);
+router.get("/",boardingHouseController.boardingShow);
+router.get("/:userId",boardingHouseController.show);
 
 
-// router.post("/register",boardingController.boardingRegister);
+// router.post("/register",boardingHouseController.boardingRegister);
 
 // router.get("/", postsController.index);
 

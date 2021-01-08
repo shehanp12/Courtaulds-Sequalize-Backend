@@ -97,7 +97,28 @@ function login(req, res) {
 
 }
 
+function showProviders(req,res) {
+    const id = req.userData.id;
+
+    models.boardingProvider.findOne({where: {id: req.userData.userId}}).then(result => {
+        if(result){
+            res.status(200).json(result);
+        }else{
+            res.status(404).json({
+                message:"This user is not exsist"
+                                 })
+        }
+    }).catch(error =>{
+        res.status(500).json({
+            message:error
+                             })
+    })
+
+
+}
+
 module.exports = {
+    showProviders:showProviders,
     signUp: signUp,
     login: login
 

@@ -1,11 +1,11 @@
 const express = require("express");
-const boardingController = require('../controllers/BoardingProvider.controller');
-
+const boardingProviderController = require('../controllers/BoardingProvider.controller');
+const checkAuthMiddleware = require('../middleware/check-auth');
 const router = express.Router();
 
-router.post('/signup',boardingController.signUp);
-router.post('/login',boardingController.login);
-router.get("/",)
+router.post('/signup',boardingProviderController.signUp);
+router.post('/login',boardingProviderController.login);
+router.get("/",checkAuthMiddleware.checkAuth,boardingProviderController.showProviders);
 
 module.exports = router;
 
