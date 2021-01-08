@@ -91,7 +91,7 @@ function login(req, res) {
     }).catch(error => {
         res.status(500).json({
                                  success: false,
-                                 message: "Something Error occurred"
+                                 message: error
                              })
     })
 
