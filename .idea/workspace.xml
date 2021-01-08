@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9e172f75-521c-443a-9159-6335878d8f56" name="Default Changelist" comment="boardingHouse controller done">
+    <list default="true" id="9e172f75-521c-443a-9159-6335878d8f56" name="Default Changelist" comment="boardingHouse controllers">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controllers/BoardingProvider.controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/BoardingProvider.controller.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/BoardingHouse.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/BoardingHouse.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/BoardingProvider.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/BoardingProvider.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,7 +20,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="559a7263388008e9f92cd0c0879cc47df308d140" />
+        <entry key="$PROJECT_DIR$" value="master" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -106,7 +104,7 @@
       <workItem from="1609951836468" duration="8468000" />
       <workItem from="1610003377448" duration="5221000" />
       <workItem from="1610042466691" duration="2333000" />
-      <workItem from="1610101150365" duration="766000" />
+      <workItem from="1610101150365" duration="2311000" />
     </task>
     <task id="LOCAL-00001" summary="sql server foreign keys">
       <created>1608553212573</created>
@@ -311,7 +309,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610005009997</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="boardingHouse controllers">
+      <created>1610102016426</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1610102016426</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -352,7 +357,8 @@
     <MESSAGE value="json objects" />
     <MESSAGE value="BoardingProvider" />
     <MESSAGE value="boardingHouse controller done" />
-    <option name="LAST_COMMIT_MESSAGE" value="boardingHouse controller done" />
+    <MESSAGE value="boardingHouse controllers" />
+    <option name="LAST_COMMIT_MESSAGE" value="boardingHouse controllers" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
