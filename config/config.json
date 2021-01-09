@@ -7,17 +7,17 @@
     "dialect": "mssql"
   },
   "test": {
-    "username": "SA",
-    "password": "tripleh@123",
-    "database": "Courtaulds",
-    "host": "192.168.8.172",
+    "username": "anjana",
+    "password": "lakshan@1998",
+    "database": "boardinghub",
+    "host": "boardinghub.database.windows.net",
     "dialect": "mssql"
   },
   "production": {
-    "username": "SA",
-    "password": "tripleh@123",
-    "database": "Courtaulds",
-    "host": "192.168.8.172",
+    "username": "anjana",
+    "password": "lakshan@1998",
+    "database": "boardinghub",
+    "host": "boardinghub.database.windows.net",
     "dialect": "mssql"
   }
 }
