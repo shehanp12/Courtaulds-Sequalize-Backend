@@ -25,10 +25,7 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9e172f75-521c-443a-9159-6335878d8f56" name="Default Changelist" comment="boardingHouse controllers">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/config.json" beforeDir="false" afterPath="$PROJECT_DIR$/config/config.json" afterDir="false" />
-    </list>
+    <list default="true" id="9e172f75-521c-443a-9159-6335878d8f56" name="Default Changelist" comment="boardingHouse controllers" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -131,7 +128,7 @@
       <workItem from="1610101150365" duration="2311000" />
       <workItem from="1610142250823" duration="2036000" />
       <workItem from="1610270405795" duration="69000" />
-      <workItem from="1610352662061" duration="298000" />
+      <workItem from="1610352662061" duration="834000" />
     </task>
     <task id="LOCAL-00001" summary="sql server foreign keys">
       <created>1608553212573</created>
@@ -343,7 +340,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610102016426</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="boardingHouse controllers">
+      <created>1610352981623</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1610352981623</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
