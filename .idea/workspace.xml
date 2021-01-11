@@ -26,6 +26,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9e172f75-521c-443a-9159-6335878d8f56" name="Default Changelist" comment="boardingHouse controllers">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/config.json" beforeDir="false" afterPath="$PROJECT_DIR$/config/config.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -129,6 +130,8 @@
       <workItem from="1610042466691" duration="2333000" />
       <workItem from="1610101150365" duration="2311000" />
       <workItem from="1610142250823" duration="2036000" />
+      <workItem from="1610270405795" duration="69000" />
+      <workItem from="1610352662061" duration="298000" />
     </task>
     <task id="LOCAL-00001" summary="sql server foreign keys">
       <created>1608553212573</created>
@@ -384,66 +387,9 @@
     <MESSAGE value="boardingHouse controllers" />
     <option name="LAST_COMMIT_MESSAGE" value="boardingHouse controllers" />
   </component>
-  <component name="WindowStateProjectService">
-    <state width="1239" height="336" key="GridCell.Tab.0.bottom" timestamp="1610203890841">
-      <screen x="0" y="23" width="1280" height="732" />
-    </state>
-    <state width="1239" height="336" key="GridCell.Tab.0.bottom/0.23.1280.730@0.23.1280.730" timestamp="1610203710094" />
-    <state width="1239" height="336" key="GridCell.Tab.0.bottom/0.23.1280.732@0.23.1280.732" timestamp="1610203890841" />
-    <state width="1239" height="336" key="GridCell.Tab.0.center" timestamp="1610203890840">
-      <screen x="0" y="23" width="1280" height="732" />
-    </state>
-    <state width="1239" height="336" key="GridCell.Tab.0.center/0.23.1280.730@0.23.1280.730" timestamp="1610203710093" />
-    <state width="1239" height="336" key="GridCell.Tab.0.center/0.23.1280.732@0.23.1280.732" timestamp="1610203890840" />
-    <state width="1239" height="336" key="GridCell.Tab.0.left" timestamp="1610203890840">
-      <screen x="0" y="23" width="1280" height="732" />
-    </state>
-    <state width="1239" height="336" key="GridCell.Tab.0.left/0.23.1280.730@0.23.1280.730" timestamp="1610203710092" />
-    <state width="1239" height="336" key="GridCell.Tab.0.left/0.23.1280.732@0.23.1280.732" timestamp="1610203890840" />
-    <state width="1239" height="336" key="GridCell.Tab.0.right" timestamp="1610203890841">
-      <screen x="0" y="23" width="1280" height="732" />
-    </state>
-    <state width="1239" height="336" key="GridCell.Tab.0.right/0.23.1280.730@0.23.1280.730" timestamp="1610203710093" />
-    <state width="1239" height="336" key="GridCell.Tab.0.right/0.23.1280.732@0.23.1280.732" timestamp="1610203890841" />
-  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/controllers/Image.controller.js</url>
-          <line>1</line>
-          <option name="timeStamp" value="39" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/controllers/Image.controller.js</url>
-          <line>3</line>
-          <option name="timeStamp" value="40" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/controllers/Image.controller.js</url>
-          <line>4</line>
-          <option name="timeStamp" value="41" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/controllers/Image.controller.js</url>
-          <line>8</line>
-          <option name="timeStamp" value="42" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/controllers/BoardingProvider.controller.js</url>
-          <line>7</line>
-          <option name="timeStamp" value="43" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/controllers/BoardingProvider.controller.js</url>
-          <line>9</line>
-          <option name="timeStamp" value="44" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/controllers/BoardingProvider.controller.js</url>
-          <line>26</line>
-          <option name="timeStamp" value="45" />
-        </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/controllers/BoardingProvider.controller.js</url>
           <line>58</line>
