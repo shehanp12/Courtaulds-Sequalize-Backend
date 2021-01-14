@@ -3,7 +3,7 @@
     "username": "SA",
     "password": "tripleh@123",
     "database": "Courtaulds",
-    "host": "192.168.8.172",
+    "host": "192.168.1.107",
     "dialect": "mssql"
   },
   "test": {
