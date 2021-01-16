@@ -30,19 +30,19 @@ module.exports = {
         type: Sequelize.STRING
       },
       checkGirlsOnly: {
-        type:Sequelize.BOOLEAN
+        type: Sequelize.BOOLEAN
 
       },
       checkParkingOnly: {
-        type:Sequelize.BOOLEAN
+        type: Sequelize.BOOLEAN
 
       },
       checkAttachBathroom: {
-        type:Sequelize.BOOLEAN
+        type: Sequelize.BOOLEAN
 
       },
       checkKitchen: {
-        type:Sequelize.BOOLEAN
+        type: Sequelize.BOOLEAN
 
       },
       userId: {
