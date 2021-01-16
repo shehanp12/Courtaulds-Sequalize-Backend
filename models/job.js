@@ -5,7 +5,12 @@ module.exports = (sequelize, DataTypes) => {
     jobName: DataTypes.STRING
   },{});
 
-  
+  Job.associate = (models) =>{
+    Job.belongsTo(models.Department,{
+      as:'department',
+      foreignKey:'jobId'
+    })
+  }
 
   return Job;
 };
