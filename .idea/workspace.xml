@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9e172f75-521c-443a-9159-6335878d8f56" name="Default Changelist" comment="boardingHouse controller done">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/config.json" beforeDir="false" afterPath="$PROJECT_DIR$/config/config.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/migrations/20201224183548-create-boarding-house.js" beforeDir="false" afterPath="$PROJECT_DIR$/migrations/20201224183548-create-boarding-house.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/migrations/20201221131014-create-job.js" beforeDir="false" afterPath="$PROJECT_DIR$/migrations/20201221131014-create-job.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -109,7 +108,7 @@
       <workItem from="1610555276158" duration="4001000" />
       <workItem from="1610604046849" duration="1836000" />
       <workItem from="1610717399673" duration="4097000" />
-      <workItem from="1610805235085" duration="605000" />
+      <workItem from="1610805235085" duration="986000" />
     </task>
     <task id="LOCAL-00001" summary="sql server foreign keys">
       <created>1608553212573</created>
